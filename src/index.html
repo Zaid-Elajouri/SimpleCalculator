@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="calculator" class="calculator">
+        <div id="result" class="result"><p></p></div>
+        
+        <span id="remove" class="clear grey" onclick="result.innerText = ''">AC</span>
+        <span class="grey" id="remove_child" onclick="del()">
+          <!--icon of delete-->
+           <svg xmlns="http://www.w3.org/2000/svg"
+            width="1.4em" height="1.4em" viewBox="0 0 512 512">
+         <path fill="currentColor" d="M227.313 363.313L312 278.627l84.687 84.686l22.626-22.626L334.627 256l84.686-84.687l-22.626-22.626L312 233.373l-84.687-84.686l-22.626 22.626L289.373 256l-84.686 84.687l22.626 22.626z"/><path fill="currentColor" d="M472 64H194.644a24.091 24.091 0 0 0-17.42 7.492L16 241.623v28.754l161.224 170.131a24.091 24.091 0 0 0 17.42 7.492H472a24.028 24.028 0 0 0 24-24V88a24.028 24.028 0 0 0-24-24zm-8 352H198.084L48 257.623v-3.246L198.084 96H464z"/></svg>
+        </span>
+        <span class="grey" id="pourcentage">%</span>
+        <span class="operator">/</span>
+      
+        <span class="number">7</span>
+        <span class="number">8</span>
+        <span class="number">9</span>
+        <span class="operator">*</span>
+        
+        <span class="number">4</span>
+        <span class="number">5</span>
+        <span class="number">6</span>
+        <span class="operator">-</span>
+        
+        <span class="number">1</span>
+        <span class="number">2</span>
+        <span class="number">3</span>
+        <span class="operator">+</span>
+        
+        <span class="double number">0</span>
+        <span id="point">.</span>
+        <span id="equal" >=</span>
+        
+  </div>
+
+  <div class="footer">
+        <p>Created by <strong><a href="mailto:elajourizaid@gmail.com">Zaid Elajouri</a></strong></p>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
