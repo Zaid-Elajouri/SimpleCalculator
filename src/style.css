@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Crimson+Pro:wght@300&family=Lato:ital@0;1&family=Montserrat&family=Playfair+Display:wght@500;600;800&family=Sansita&family=Source+Serif+4:wght@300&family=Spline+Sans&display=swap');
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  font-family: 'Crimson Pro', serif;
+}
+html {
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+body {
+  justify-content: center;
+  margin-top: 1em;
+  font-size: 2em;
+  background-color: #bbb;
+}
+.calculator {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 100vh; /* For 100% screen height */
+  width:  100vw;
+  box-shadow: 0px 3px 10px 3px #aaa;
+  border-right: 0.01em solid #333;
+  border-bottom: 0.01em solid #333;
+}
+i{
+  color:red;
+  background-color: red;
+}
+.result {
+  width: 100%;
+  background-color: #000;
+  min-height: 2em;
+  color: white;
+  font-size: 28px;
+  
+}
+.result > p {
+  padding: 0 1em;
+  text-align: right;
+  line-height: 2em;
+  height: 10vh;
+
+}
+span {
+  font-size: 35px;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  width: 25%;
+  background-color: #ccc;
+  line-height: 2em;
+  border-top: 0.01em solid #333;
+  border-left: 0.01em solid #333;
+}
+span:hover{
+  background-color: rgba(0, 0, 0, 0.432);
+}
+.operator {
+  background-color: #FF9500;
+  color: white;
+}
+.double {
+  width: 50%;
+}
+.grey {
+  background-color: #aaa;
+}
+.clicked {
+  background-color: darken(orange, 10%);
+}
+svg{
+  margin-top: 0.4em;
+}
+.footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  height:70px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+.footer p{
+ font-size: larger;
+ font-family:'Inter', sans-serif;
+
+}
+.footer a{
+   color:orange;
+   text-decoration: none;
+   font-size: 23px;
+}
